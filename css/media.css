@@ -1,0 +1,64 @@
+@media(max-width:767px) and (min-width:576px){
+    .banner_content h1{
+        color:seagreen
+    }
+}
+@media(max-width:576px) and (min-width:0px){
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: 15px;
+        display: inline-block;
+        margin-bottom: 12px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .phone {
+        display: none;
+    }
+    .banner_content{
+        text-align: center;
+        margin: auto;
+    }
+    .pricing_section {
+        margin-bottom: 20px;
+    }
+    .contact_form{
+        width: 80%;
+        bottom:-255px
+    }
+    .detail_text{
+        margin-top: 0;
+    }
+    .img{
+        display: none;
+    }
+    .customize_text {
+        text-align: center;
+        margin: auto;
+    }
+    .img1{
+        display: none;
+    }
+    .button h1 {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .button_section{
+        text-align: center;
+    }
+    .btn_downloads {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+    .btn_views {
+        font-size: 10px;
+    }
+}
+    
+@media(max-width:425px) and (min-width:0px){
+    .btn_download {
+        margin-right: 0px;
+        margin-bottom: 18px;
+    }
+}
